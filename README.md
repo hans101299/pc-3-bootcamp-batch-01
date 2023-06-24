@@ -1,5 +1,35 @@
 # Bootcamp Presencial - Batch 01
 
+## Contratos realizados
+
+### GOERLI:
+
+USDC Contract Address:  0x818819B0802aB053f48169ca80Eb338C73Ba2a83
+
+PC3TOKEN Proxy Address: 0x4a700D40EbeBA29F8C1DFdbB1F0BB9926ae8A360
+PC3TOKEN Impl Address: 0x7040c572A8E3eFc0a58173711fA6b058544D11db
+
+PublicSale Proxy Address: 0x70faFCFff21ed69b89Cc88a554307c193E1e7810
+PublicSale Impl Address: 0x83783925bfa6B0Fb136377A72fAe159E03773f2E
+
+gnosis: 0x4671f019fE78c3D23cdfFE24d05e5CDB939A33Aa
+
+### MUMBAI:
+
+PC3NFTUpgradeable Proxy Address: 0xeb85979E9eD109Da1b95A9C00622F7A086c6ff91
+PC3NFTUpgradeable Impl Address: 0xc3e75C4785222273E3777005908AA9FCCBfe6127
+
+
+Relayer: 0xCDc3f7A9820A1Fa181D4F8A0515Ce422FDEc2AB1
+
+## Sobre el front
+
+1. Se agrego el método para ver los id de tokens disponibles
+2. Al conectar la billetera se buscará en los ultimos 500 bloques, las creaciones de tokens
+
+## Uniswap
+![plot](./uniswap.png)
+
 ## Práctica Calificada 3
 
 Estás a punto de lanzar una colección de NFTs para tu comunidad. Escoges la red Polygon (Mumbai) dado que es la red más popular para este tipo de proyectos. Tus usuarios poseen los fondos en la red Ethereum (Goerli) y prefieres que se realice la compra en esta red y luego, cross-chain, acuñar los NFTs en Polygon.

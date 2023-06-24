@@ -13,6 +13,10 @@ contract USDCoin is ERC20, AccessControl {
         _grantRole(MINTER_ROLE, msg.sender);
     }
 
+    function decimals() override public view returns (uint8) {
+        return 6;
+    }
+
     function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
         _mint(to, amount);
     }
