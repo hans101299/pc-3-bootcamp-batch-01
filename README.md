@@ -24,7 +24,7 @@
 ## Sobre el front
 
 1. Se agrego el método para ver los id de tokens disponibles
-2. Al conectar la billetera se buscará en los ultimos 500 bloques, las creaciones de tokens
+2. Al conectar la billetera se buscará en los ultimos 500 bloques, las creaciones de NFTs
 
 ![plot](./front_end.png)
 
